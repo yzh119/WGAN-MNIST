@@ -17,7 +17,7 @@ from torchvision import datasets, transforms
 import torchvision.utils as vutils
 from model import *
 
-logger = tmlog.Logger('log')
+logger = tmlog.Logger('LOG')
 
 n_epochs = 25
 init_Diters = 5
