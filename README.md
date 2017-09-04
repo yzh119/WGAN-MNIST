@@ -5,5 +5,5 @@ Follow the instructions in [WassersteinGAN](https://github.com/martinarjovsky/Wa
 
 ## Milestone
 
-- [ ] Complete the WGAN part.
+- [x] Complete the WGAN part.
 - [ ] Compare with vanilla GAN.

@@ -24,6 +24,7 @@ class Generator(nn.Module):
         self.para = torch.nn.DataParallel(self.net, device_ids=range(self.ngpu))
     
     def forward(self, input):
+        input = input.view(input.size(0), input.size(1))
         output = self.para(input)
         return output.view(output.size(0), self.nc, self.isize, self.isize)
 
